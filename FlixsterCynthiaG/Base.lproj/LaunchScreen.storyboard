@@ -19,36 +19,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="co7-rT-hQg">
                                 <rect key="frame" x="138" y="284" width="138" height="139"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLIXSTER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErJ-5z-Pk8">
-                                <rect key="frame" x="169" y="431" width="80" height="22.666666666666686"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <color key="highlightedColor" systemColor="labelColor"/>
-                                <color key="shadowColor" systemColor="labelColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ErJ-5z-Pk8" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="431" id="2Pz-1b-3HG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ErJ-5z-Pk8" secondAttribute="trailing" constant="165" id="Mm5-jp-E1B"/>
-                            <constraint firstItem="co7-rT-hQg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="a4I-KV-gfA"/>
-                            <constraint firstItem="ErJ-5z-Pk8" firstAttribute="top" secondItem="co7-rT-hQg" secondAttribute="bottom" constant="8" id="bCx-4n-SjM"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="co7-rT-hQg" secondAttribute="trailing" constant="138" id="eyE-IQ-qUz"/>
-                            <constraint firstItem="ErJ-5z-Pk8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="nLd-cV-OQE"/>
+                            <constraint firstItem="co7-rT-hQg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="284" id="dcJ-Pb-ilY"/>
+                            <constraint firstItem="co7-rT-hQg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="syo-jY-6J4"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
         </scene>
     </scenes>
     <resources>
         <image name="launch_image" width="138" height="139"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
